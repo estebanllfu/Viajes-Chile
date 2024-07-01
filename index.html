@@ -24,8 +24,8 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-opacity-0 fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid p-0">
             <div class="ms-5">
                 <img src="assets/img/viajes.svg" alt="logotipo viajes chile" id="logotipo-viajes-chile">
                 <a id="texto-viajes-chile" class="navbar-brand text-light" href="#">Viajes Chile</a>
@@ -41,14 +41,14 @@
                         <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Quienes Somos</a>
+                        <a class="nav-link active text-light" href="#">Quienes Somos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-light">Destacados</a>
+                        <a class="nav-link active text-light" href="#">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light">Contacto</a>
+                        <a class="nav-link active text-light" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -82,8 +82,8 @@
 
     </section>
     <!--Section quienes somos-->
-    <section id="Quienes-Somos">
-        <div class="container-fluid text-center bg-dark mt-0 py-5 text-light">
+    <section id="Quienes-Somos" class="container-fluid bg-dark text-light py-5 ">
+        <div class=" text-center mt-0 py-5">
             <h1 class="text-light">¿QUIÉNES SOMOS?</h1>
 
             <hr>
@@ -92,7 +92,7 @@
 
         <div class="row by-3 pb-5 bg-dark">
             <div class="col-12 col-lg-4 text-light">
-                <div class="bg-info text-center">
+                <div class="bg-info text-center py-3">
                     <i class="fa-solid fa-plane"></i>
                 </div>
                 <p>Lorem ipsum dolor sit amet. Et quos autem et minus explicabo nam officiis quia aut consequatur
@@ -117,14 +117,14 @@
                     voluptatem odio. Sed tenetur consequuntur qui minus modi non autem tempora qui blanditiis
                     perferendis hic quam neque eos adipisci pariatur. Qui odio reiciendis ea quam illum sed sequi amet
                     eos dicta necessitatibus et natus modi ad rerum nesciunt.</p>
-                <div class="bg-info text-center">
+                <div class="bg-info text-center py-3">
                     <i class="fa-solid fa-volcano"></i>
                 </div>
 
             </div>
 
             <div class="col-12 col-lg-4 bg-dark text-light">
-                <div class="bg-info text-center">
+                <div class="bg-info text-center py-3">
                     <i class="fa-solid fa-map-location-dot"></i>
                 </div>
                 <p>Lorem ipsum dolor sit amet. Et quos autem et minus explicabo nam officiis quia aut consequatur
@@ -146,9 +146,9 @@
     
 <!--Section Destacados-->
 
-<section id="destacados" class="bg-dark container-fluid">
+<section id="destacados" class="bg-dark container-fluid py-5">
 
-    <div class="text-center text-light pt-4">
+    <div class="text-center text-light py-4">
     <h1>DESTACADOS</h1>
 
     <hr>
@@ -204,7 +204,7 @@
 </section>
 
 <!--Sección Contacto-->
-<section id="Contacto" class="bg-dark text-light pt-5 ">
+<section id="Contacto" class="container-fluid bg-dark text-light pt-5 ">
 
     <div class="text-center">
 
@@ -229,7 +229,7 @@
           <textarea id="mensaje" class="form-control"> </textarea>
         </div>
 
-        <div class="text-start my-3">
+        <div class="text-start py-3">
           <button type="button" class="btn btn-info">Enviar</button>
         </div>
 
@@ -241,16 +241,16 @@
 
  </section>
 
- <footer class=" bg-info ">
-    <div class="row">
+ <footer class=" container-fluid bg-info text-light">
+    <!-- <div class="row">
 <div class="col-12 col-lg-6">
-    <div class="container text-center">
+    <div class="container text-start">
       <h1 id="texto-footer"  class="text-light">Viajes Chile</h1>
     </div>
 </div>
 
 
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-lg-6 text-end justify-content-center">
         <i class="fa-brands fa-square-github"></i>
 
         <i class="fa-brands fa-linkedin"></i>
@@ -260,7 +260,30 @@
         <i class="fa-brands fa-square-facebook"></i>
     </div>
 
-</div>
+</div> -->
+
+<div class="d-flex">
+    <div class="p-2 flex-grow-1 fw-bold">Viajes Chile</div>
+    <div class="p-2">
+
+        <i class="fa-brands fa-square-github"></i>
+    </div>
+    <div class="p-2">
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+
+    <div class="p-2">
+        <i class="fa-brands fa-square-x-twitter"></i>
+
+    </div>
+
+    <div class="p-2">
+        <i class="fa-brands fa-square-facebook"></i>
+
+    </div>
+  </div>
+
   </footer>
 
 
