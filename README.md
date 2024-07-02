@@ -13,6 +13,7 @@ de nuestro Segundo modulo.
 - Tecnologias empleadas
 - DevOp
 - Como clonar el proyecto
+- Link Github Page
 
 ## Descripción del sitio
 
@@ -43,4 +44,8 @@ nosotros como estudiantes entendamos sus necesidades.
 git clone: https://github.com/estebanllfu/Viajes-Chile.git
 ```
 
+## Git hub pages
+```
+Link : https://estebanllfu.github.io/Viajes-Chile/
+```
 
