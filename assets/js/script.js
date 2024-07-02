@@ -12,7 +12,7 @@ $(document).ready(function() {
         
     });
 
-//smooth scroll
+//smooth scroll---
 var scrollLink = $('.scroll');
 
 scrollLink.click(function(e){
