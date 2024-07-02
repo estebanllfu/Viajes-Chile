@@ -38,17 +38,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                        <a  class="nav-link active text-light scroll" aria-current="page" href="#header">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="#">Quienes Somos</a>
+                        <a  class="nav-link active text-light scroll" href="#quienes-somos">Quienes Somos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="#">Destacados</a>
+                        <a class="nav-link active text-light scroll" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="#">Contacto</a>
+                        <a class="nav-link active text-light scroll" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +82,7 @@
 
     </section>
     <!--Section quienes somos-->
-    <section id="Quienes-Somos" class="container-fluid bg-dark text-light py-5 ">
+    <section id="quienes-somos" class="container-fluid bg-dark text-light py-5 d-none d-md-block">
         <div class=" text-center mt-0 py-5">
             <h1 class="text-light">¿QUIÉNES SOMOS?</h1>
 
@@ -156,7 +156,7 @@
 
     
 
-    <div class="row">
+    <div class="row justify-content-center g-4 m-0 ms-5 px-5">
        
         <div class="col-12 col-lg-3 col-md-6">
             <div class="card" style="width: 18rem;">
@@ -204,7 +204,7 @@
 </section>
 
 <!--Sección Contacto-->
-<section id="Contacto" class="container-fluid bg-dark text-light pt-5 ">
+<section id="contacto" class="container-fluid bg-dark text-light pt-5 ">
 
     <div class="text-center">
 
@@ -230,7 +230,9 @@
         </div>
 
         <div class="text-start py-3">
-          <button type="button" class="btn btn-info">Enviar</button>
+            <button id="tooltip-bs"  type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="¡A un click de conocernos!">
+                Enviar Correo
+              </button>
         </div>
 
 
@@ -242,25 +244,7 @@
  </section>
 
  <footer class=" container-fluid bg-info text-light">
-    <!-- <div class="row">
-<div class="col-12 col-lg-6">
-    <div class="container text-start">
-      <h1 id="texto-footer"  class="text-light">Viajes Chile</h1>
-    </div>
-</div>
-
-
-    <div class="col-12 col-lg-6 text-end justify-content-center">
-        <i class="fa-brands fa-square-github"></i>
-
-        <i class="fa-brands fa-linkedin"></i>
-
-        <i class="fa-brands fa-square-x-twitter"></i>
-
-        <i class="fa-brands fa-square-facebook"></i>
-    </div>
-
-</div> -->
+    
 
 <div class="d-flex">
     <div class="p-2 flex-grow-1 fw-bold">Viajes Chile</div>
